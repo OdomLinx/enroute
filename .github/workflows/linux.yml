@@ -1,7 +1,6 @@
 name: Compile on Linux
 
 on:
-  issue_comment:
   push:
     branches: [ develop ]
 
