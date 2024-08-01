@@ -1,6 +1,7 @@
 name: Compile on Android
 
 on:
+  issue_comment:
   push:
     branches: [ develop ]
 
