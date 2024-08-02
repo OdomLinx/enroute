@@ -82,9 +82,9 @@ jobs:
       run: |
         $QT_ROOT_DIR/bin/qt-cmake \
           -S enroute \
-          -B build-enroute\
+          -B build-android-release \
           -G Ninja\
-          -DCMAKE_BUILD_TYPE:STRING=Debug
+          -DCMAKE_BUILD_TYPE:STRING=Release
         cmake --build build-enroute
     - name: Upload to developerBuilds
       run: |
